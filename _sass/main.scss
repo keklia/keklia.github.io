@@ -27,7 +27,7 @@ body {
   font-family: consolas, monaco, monospace;
   font-size: 16px;
   color: $smoky-black;
-  background-color: $more-white;
+  background-color: $more-white; /* william will not like this but it is okay. hi william */
 }
 
 hr {
@@ -52,21 +52,49 @@ a:hover{
   font-weight: bold;
 }
 
-p {
-  margin: 25px 0px 25px 0px;
+
+div {
+  margin: 0px 0px 10px 0px;
 }
 
 h1 {
   font-weight: bold;
 }
 
+h2 {
+  color: $reseda-green;
+}
+
 .current {
   font-weight: bold;
 }
 
+.text-muted{
+  /* TODO find suitable color 
+   actually, i guess this works */
+  color: $sage;
+}
+
+.text-hl{
+  color: $reseda-green;
+}
+
 img {
-  display: block;
-  width: 300px;
+  width: 200px;
   max-width: 100%;
   height: auto;
+}
+
+/* TODO fix this whole figure caption mess :( */
+
+figure {
+  display: flex;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  float: right;
+  color: $reseda-green;
+  display: inline-block;
 }
