@@ -13,3 +13,7 @@
 - name: pottery
   link: /pottery
   htmllink: /pottery.html
+- name: writing
+  link: /writing
+  htmllink: /writing.html
+#eventually i will make "htmllink" superfluous
