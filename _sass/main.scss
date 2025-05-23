@@ -1,0 +1,51 @@
+$neutral: #EFEBCE;
+$pink-light: #D8A48F;
+$pink-dark: #BB8588;
+$green-light: #D6CE93;
+$green-dark: #A3A380;
+
+$smoky-black: #191308; 
+$dark-brown: #322A26;
+$reseda-green: #7A8450;
+$sage: #AEBD93;
+$eggshell: #FAF3DD;
+$more-white: #FEFDF9;
+
+html {
+  overflow-y: scroll;
+  width: 640px;
+  margin: auto;
+}
+
+body {
+  font-family: consolas, monaco, monospace;
+  font-size: 16px;
+  color: $smoky-black;
+  background-color: $more-white;
+}
+
+hr {
+  height: 2.5px;
+  color: $sage;
+  background: $sage;
+  border: 0;
+}
+
+header {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+a {
+  color: $reseda-green;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.current {
+  font-weight: bold;
+}
