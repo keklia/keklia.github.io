@@ -7,6 +7,7 @@ $green-dark: #A3A380;
 $smoky-black: #191308; 
 $dark-brown: #322A26;
 $reseda-green: #7A8450;
+$r-s-midpoint: #94A172;
 $sage: #AEBD93;
 $eggshell: #FAF3DD;
 $more-white: #FEFDF9;
@@ -70,9 +71,7 @@ h2 {
 }
 
 .text-muted{
-  /* TODO find suitable color 
-   actually, i guess this works */
-  color: $sage;
+  color: $r-s-midpoint;
 }
 
 .text-hl{
