@@ -4,6 +4,11 @@ title: Home
 ---
 <h1>Writing</h1>
 
-<p>
-coming soon!
-</p>
+<ul class="blog">
+{% for post in site.posts %}
+	<li>
+	<a href="{{ post.url }}">{{ post.title }}</a>
+	{{ post.excerpt }}
+	</li>
+{% endfor %}
+</ul>
