@@ -10,10 +10,10 @@
 - name: music
   link: /music
   htmllink: /music.html
-- name: crafts
-  link: /crafts
-  htmllink: /crafts.html
-- name: writing
-  link: /writing
-  htmllink: /writing.html
+#- name: crafts
+#  link: /crafts
+#  htmllink: /crafts.html
+#- name: writing
+#  link: /writing
+#  htmllink: /writing.html
 #eventually i will make "htmllink" superfluous
