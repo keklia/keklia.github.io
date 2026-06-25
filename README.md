@@ -5,3 +5,4 @@ todo:
 - fix images
 - fix blog setup
 
+bundle exec jekyll serve --livereload
